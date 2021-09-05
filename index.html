@@ -1,15 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href='styles.css'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
 	<title>Interactive Pricing Component</title>
 </head>
 
+<div id='svg-background-img'></div>
+
 <body>
+
+	<!-- Title and logo container -->
+	<div id='logo-title-text-container'>
+		<div id='logo'></div>
+		<h1 id='title-text'><strong>Simple, traffic-based pricing</strong></h1>
+		<p id='title-subtext'>Sign-up for our 30-day trial. No credit card required.</p>
+	</div>
+
+	<!-- Main app container -->
+	<div id='app-container'>
+
+		<div class='main-sections' id='top-section'>
+
+			<div id='views-and-cost-container'>
+
+				<div class='views-cost-text-class' id='page-views-container'>
+					<p>100k pageviews</p>
+				</div>
+
+				<div class='views-cost-text-class' id='cost-container'>
+					<p id='price-text'>$16.00</p>
+					<p>/ month</p>
+				</div>
+
+			</div>
+
+			<div id='slider-container'>
+
+				<input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+
+			</div>
+
+			<div id='monthly-yearly-switch-container'>
+				<p class='billing-text'>Monthly Billing</p>
+
+				<label id='switch' for='checkbox'>
+					<input type="checkbox" id='checkbox'>
+					<div id='switch-slider'></div>
+				</label>
+
+				<p class='billing-text'>Yearly Billing</p>
+				<div id='discount-container'>
+					<p id='discount-text'>25% discount</p>
+				</div>
+			</div>
+
+		</div>
+
+		<hr id='hr' />
+
+		<div class='main-sections' id='bottom-section'>
+
+			<div id='service-qualities-container'>
+
+				<div class='feature' id='unl-web-service'>
+					<img src='./assets/icon-check.svg' />
+					<p>Unlimited websites</p>
+				</div>
+
+				<div class='feature' id='data-own-service'>
+					<img src='./assets/icon-check.svg' />
+					<p>100% data ownership</p>
+				</div>
+
+				<div class='feature' id='ema-rep-service'>
+					<img src='./assets/icon-check.svg' />
+					<p>Email reports</p>
+				</div>
+
+			</div>
+
+			<div id='trial-button-container'>
+				<button id='trial-button'>Start my trial</button>
+			</div>
+
+		</div>
+
+	</div>
+
+	</div>
 
 </body>
 
