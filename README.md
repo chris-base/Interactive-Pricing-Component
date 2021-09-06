@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![]('./assets/Interactive-Pricing-Component-cbase-ss.png')
+![](./assets/Interactive-Pricing-Component-cbase-ss.png)
 
 ### Links
 
