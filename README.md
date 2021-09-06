@@ -14,7 +14,7 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 ## Overview
 
-
+This application is a product pricing component that would be used to show a user the price when the user inputs how they often they would like to pay, and how many pageviews their websites produce. This app has interactive elements that make the application feel smoother when user interacts with it.
 
 ### The challenge
 
@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![]('./assets/Interactive-Pricing-Component-cbase-ss.png')
 
 ### Links
 
 - Live Site URL: [Live Site](https://chris-base.github.io/Interactive-Pricing-Component/)
-- Solution URL: [My Solution]()
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/interactive-pricing-component-using-only-html-sass-and-javascript-tHGfm_F2M)
 
 ### Built with
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-
+I learned a lot about how to make custom widgets within an app, such as the slider, that is custom designed to fit the rest of the apps design. Also the switch to choose between monthly billing and yearly billing was made custom in a very interesting way that included a sort of 'drawing' elements using sass to make regular circles/squares to make a good looking slider.
 
 ## Author
 

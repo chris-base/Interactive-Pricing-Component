@@ -38,7 +38,7 @@
 			<div id='views-and-cost-container'>
 
 				<div class='views-cost-text-class' id='page-views-container'>
-					<p>100k pageviews</p>
+					<p id='pageviews-text'>100k pageviews</p>
 				</div>
 
 
@@ -50,7 +50,7 @@
 
 				<div id='slider-container'>
 
-					<input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+					<input type="range" min="1" max="5" value="3" class="slider" id="main-slider" oninput="updatePrice()">
 
 				</div>
 
@@ -63,7 +63,7 @@
 				<p class='billing-text'>Monthly Billing</p>
 
 				<label id='switch' for='checkbox'>
-					<input type="checkbox" id='checkbox'>
+					<input type="checkbox" id='checkbox' oninput='updatePrice()'>
 					<div id='switch-slider'></div>
 				</label>
 
@@ -118,6 +118,8 @@
 	</div>
 
 	</div>
+
+	<script type="text/javascript" src='script.js'></script>
 
 </body>
 
