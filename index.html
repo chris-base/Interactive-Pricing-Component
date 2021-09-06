@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,20 +41,25 @@
 					<p>100k pageviews</p>
 				</div>
 
+
+
 				<div class='views-cost-text-class' id='cost-container'>
 					<p id='price-text'>$16.00</p>
 					<p>/ month</p>
 				</div>
 
+				<div id='slider-container'>
+
+					<input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+
+				</div>
+
 			</div>
 
-			<div id='slider-container'>
 
-				<input type="range" min="1" max="5" value="3" class="slider" id="myRange">
-
-			</div>
 
 			<div id='monthly-yearly-switch-container'>
+
 				<p class='billing-text'>Monthly Billing</p>
 
 				<label id='switch' for='checkbox'>
@@ -64,11 +67,22 @@
 					<div id='switch-slider'></div>
 				</label>
 
-				<p class='billing-text'>Yearly Billing</p>
-				<div id='discount-container'>
-					<p id='discount-text'>25% discount</p>
+				<div id='billing-and-discount-container'>
+
+					<p class='billing-text'>Yearly Billing
+					</p>
+
+					<div id='discount-container'>
+						<p class='dtDesktop' id='discount-text'>25% discount</p>
+						<p class='dtPhone' id='discount-text'>-25%</p>
+					</div>
+
 				</div>
+
+
 			</div>
+
+
 
 		</div>
 
